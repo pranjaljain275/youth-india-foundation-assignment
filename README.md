@@ -24,4 +24,12 @@
 - nodemon
 - dotenv
 - mongoose
-- cors
+- 
+
+## POSTMAN API Documentation
+- https://documenter.getpostman.com/view/24247750/2s93mAUfPU
+
+## Backend Deploy
+- https://yif-library-be.onrender.com/
+
+## Frontend Deploy
