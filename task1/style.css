@@ -39,6 +39,7 @@ section {
     margin-right: 20px;
     cursor: pointer;
     padding: 8px 12px;
+    letter-spacing: 0.75px;
 }
 .nav h2:hover {
     background-color: rgba(64,87,109,.07);
