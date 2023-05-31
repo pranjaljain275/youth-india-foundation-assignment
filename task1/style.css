@@ -135,6 +135,7 @@ section>video {
 .btmsection>div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .btmsection>div>div {
     width: 50%;
