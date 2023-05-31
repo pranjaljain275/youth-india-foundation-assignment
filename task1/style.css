@@ -87,8 +87,8 @@ section {
     font-weight: 300;
     margin: 28px 0;
 }
-.designToday button , .perfectFit>div>div>button{
-    margin: 0 8px;
+.designToday button , .perfectFit>div>div>button, .btmsection button, .bestWork button{
+    margin-right: 8px;
     background-color: #8b3dff;
     color: #fff;
     padding: 8px 12px;
@@ -113,7 +113,7 @@ section>video {
 .perfectFit>div {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 .perfectFit>div>div {
@@ -130,7 +130,7 @@ section>video {
     font-size: 16px;
 }
 .perfectFit>div>div>button {
-    width: 90%;
+    width: 100%;
 }
 .btmsection>div{
     display: flex;
@@ -139,7 +139,26 @@ section>video {
 }
 .btmsection>div>div {
     width: 50%;
-    margin: 30px 0;
+    margin: 20px 0;
+}
+.btmsection>div:nth-child(1)>div:last-child {
+    padding: 30px;
+}
+.btmsection>div:nth-child(3)>div:last-child {
+    padding: 30px;
+}
+.btmsection>div:nth-child(2)>div:first-child {
+    padding: 30px;
+}
+.btmsection>div>div h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 0.75px;
+}
+.btmsection>div>div p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
 }
 .btmsection>div video {
     width: 100%;
@@ -151,4 +170,46 @@ footer>div {
     display: flex;
     margin: 20px auto;
     justify-content: space-evenly;
+    padding: 30px;
+}
+footer p {
+    margin-top: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+footer p:hover {
+    color: #8b3dff;
+}
+footer h4{
+    color: #0d1216;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.bestWork {
+    text-align: center;
+}
+.bestWork h2{
+    font-size: 32px;
+    margin: 28px 0;
+}
+.bestWork>p{
+    margin: 28px 0;
+}
+.bestWork>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bestWork>div>div {
+    width: 50%;
+}
+.bestWork>div>div video {
+    width: 100%;
+}
+.bestWork div p {
+    width: 70%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 24px;
 }
