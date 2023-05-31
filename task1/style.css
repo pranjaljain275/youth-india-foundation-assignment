@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+header {
+    padding: 16px 32px;
+    box-shadow: 0 2px 4px -1px rgba(57,76,96,.15);
+    margin-bottom: 50px;
+}
+section {
+    margin: 50px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: fit-content;
+    cursor: pointer;
+}
+.logo img {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h2 {
+    font-size: 14px;
+    font-weight: 200;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.nav h2:hover {
+    background-color: rgba(64,87,109,.07);
+    border: none;
+    border-radius: 4px;
+}
+.nav h2 a {
+    color: #000;
+    text-decoration: none;
+}
+.navbar .search input{
+    padding: 8px;
+    font-size: 14px;
+    width: 400px;
+}
+.btn button{
+    margin: 0 8px;
+    background-color: rgba(64,87,109,.07);
+    color: #000;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn button:hover {
+    background-color: rgba(33, 41, 49, 0.07);
+}
+.btn button:last-child:hover {
+    background-color: #8332fe;
+}
+.btn button:last-child {
+    background-color: #8b3dff;
+    color: #fff;
+}
+
+.designToday {
+    text-align: center;
+}
+.designToday h1{
+    font-size: 40px;
+    margin: 28px 0;
+}
+.designToday h2{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 28px 0;
+}
+.designToday button , .perfectFit>div>div>button{
+    margin: 0 8px;
+    background-color: #8b3dff;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.designToday button:hover {
+    background-color: #8332fe;
+}
+section>video {
+    width: 100%;
+    margin: auto;
+}
+
+.perfectFit h1 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 70px;
+}
+.perfectFit>div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.perfectFit>div>div {
+    width: 30%;
+    text-align: center;
+}
+.perfectFit>div>div h4 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 0.75px;
+}
+.perfectFit>div>div p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.perfectFit>div>div>button {
+    width: 90%;
+}
+.btmsection>div{
+    display: flex;
+    justify-content: space-between;
+}
+.btmsection>div video {
+    width: 50%;
+}
+.btmsection>div img {
+    width: 50%;
+}
