@@ -140,9 +140,6 @@ section>video {
     width: 50%;
     margin: 30px 0;
 }
-.btmsection>div>div:last-child {
-    /* padding: ; */
-}
 .btmsection>div video {
     width: 100%;
 }
