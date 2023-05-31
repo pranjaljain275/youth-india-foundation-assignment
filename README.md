@@ -24,7 +24,6 @@
 - nodemon
 - dotenv
 - mongoose
-- 
 
 ## POSTMAN API Documentation
 - https://documenter.getpostman.com/view/24247750/2s93mAUfPU
@@ -33,3 +32,4 @@
 - https://yif-library-be.onrender.com/
 
 ## Frontend Deploy
+- https://yif-library-fe-275.netlify.app/
