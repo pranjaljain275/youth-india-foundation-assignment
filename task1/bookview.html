@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="viewBookDetail"></div>
+  </body>
+</html>
+<script>
+  let book = JSON.parse(localStorage.getItem("book")) || [];
+
+  document.querySelector(".viewBookDetail").innerHTML = `
+            <div class="eachBook">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqbd5hH6jYX37N6BCQIIM5DqASiVkQ-AN1ZtSsxIi-n7qVYkFBEF93F976EsbGuRrpew&usqp=CAU" alt="">
+                <h4><strong>Title</strong> : ${book[0].bookName}</h4>
+                <h4><strong>Author</strong> : ${book[0].authorName}</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam inventore pariatur iusto dolores id odit ad officia mollitia dignissimos aperiam asperiores molestiae ratione, soluta voluptatem consectetur recusandae. Sit, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sunt debitis voluptas. Inventore quia veritatis rerum quidem tempora molestiae reiciendis aliquam consectetur cumque, cum nisi temporibus, assumenda provident voluptatibus id.</p>
+            </div>
+            `;
+</script>

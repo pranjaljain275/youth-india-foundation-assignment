@@ -159,6 +159,7 @@ section>video {
 .viewBook div {
     padding: 4px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .viewBook>div img {
     border-radius: 8px;
@@ -277,4 +278,25 @@ footer h4{
     font-size: 16px;
     margin-bottom: 40px;
     line-height: 24px;
+}
+
+.viewBookDetail {
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    margin-top: 6px;
+}
+.viewBookDetail div {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.viewBookDetail>div img {
+    border-radius: 8px;
+    width: 100%;
+}
+.viewBookDetail>div h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 12px 0;
 }
