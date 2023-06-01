@@ -141,6 +141,35 @@ section>video {
     margin: auto;
 }
 
+.viewBook {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.books {
+    margin-bottom: 100px;
+}
+.books h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 28px 0;
+}
+.viewBook div {
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.viewBook>div img {
+    border-radius: 8px;
+    width: 100%;
+}
+.viewBook>div h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 12px;
+}
+
 .perfectFit h1 {
     text-align: center;
     font-size: 34px;
